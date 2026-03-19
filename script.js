@@ -47,7 +47,7 @@ document.querySelectorAll(".video-placeholder[data-src]").forEach((placeholder) 
           <circle cx="12" cy="12" r="10" stroke-opacity="0.25"/>
           <path d="M12 2a10 10 0 0 1 10 10" stroke-linecap="round"/>
         </svg>
-        <span style="font-size:.8rem;font-weight:600;color:var(--text-muted)">Carregando…</span>
+        <span style="font-size:.8rem;font-weight:600;color:var(--text-muted)">Loading…</span>
       </div>`;
 
     // Cria o iframe apenas agora (lazy)
